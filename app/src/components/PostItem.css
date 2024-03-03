@@ -1,0 +1,58 @@
+.post-frame {
+    position: relative;
+    margin: 2vh auto;
+    border: solid;
+    border-width: 1px;
+    border-color: #b0c4de; /* Light steel blue border */
+    background-color: #f0f8ff; /* Alice blue background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+    border-radius: 8px; /* rounded corners */
+    font-family: 'Open Sans', sans-serif; /* Modern and clean font */
+    text-align: left; /* Center align the text */
+    padding: 20px;
+    max-width: 800px; /* Adjust based on your layout */
+}
+
+.post-title {
+    font-size: 1.8em; /* larger text for title */
+    color: #1e90ff; /* Dodger blue color for the title */
+    font-weight: 700; /* bold font for title */
+    text-shadow: 1px 1px 0px #b0c4de; /* subtle text shadow for depth */
+    padding-bottom: 20px; /* additional padding to ensure space between title and location */
+
+    max-height: 4vh;
+
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.post-author {
+    font-size: 1.2em; /* size for author text */
+    color: #4169e1; /* Royal blue color for the author */
+    font-weight: 600; /* slightly bold for author */
+    margin: 5px 0; /* space around author */
+    margin-bottom: 10vh;
+}
+
+.post-description {
+    font-size: 1em;
+    color: #2f4f4f; /* Dark slate gray for description to maintain readability */
+    margin-top: 0.5em; /* space above the description */
+}
+
+.post-location {
+    font-size: 1em;
+    color: #4682b4; /* Steel blue color for the location */
+    font-weight: 600; /* slightly bold for location */
+    position: absolute;
+    top: 0; /* Adjust this value to position the location text higher */
+    right: 20px;
+    padding-top: 0px; /* additional padding to lift the location text */
+}
+
+/* Additional global styling */
+body {
+    background-color: #e6e6fa; /* lavender background for overall page */
+    color: #333; /* dark grey color for general text */
+    line-height: 1.6; /* space between lines */
+}
